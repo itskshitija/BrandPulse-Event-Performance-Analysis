@@ -1,3 +1,7 @@
+<a href="https://www.linkedin.com/in/kshitija-chilbule-b98515309/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin" alt="LinkedIn Badge" style="height: 30px; width: auto;">
+</a>
+
 # 🕺🪩BrandPulse Event Performance Analysis
 
 ## 🔍Overview
@@ -103,7 +107,9 @@ The dataset contains details of each sponsored event, including:
 - **Focus more on Mumbai and Pune** for future events, given their strong performance.
 - **Analyze underperforming cities** like Bangalore to optimize sponsorship spending.
 
-## 📬 Contact
-**Author:** Kshitija Chilbule
+## Connect 🤝
+- 📩 <b>Email:</b> kshitijachilbule5@gmail.com
+- 👩‍💻 <b>Github:</b> https://github.com/itskshitija
+- 📶 <b>LinkedIn:</b> https://www.linkedin.com/in/kshitija-chilbule-b98515309/
+- 🌐 <b>Medium:</b> https://medium.com/@kshitijachilbule2
 
-For inquiries, email: kshitijachilbule2@gmail.com
