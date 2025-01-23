@@ -1,10 +1,10 @@
-# AR2-Assignment_BrandPulse
+# 🕺🪩BrandPulse Event Performance Analysis
 
-## Overview
+## 🔍Overview
 
 **BrandPulse**, a leading consumer electronics company, has invested in multiple sponsorships across various high-profile events in India. These sponsorships aimed to drive product signups directly at the event venues. The goal is to analyze the performance of each event sponsorship in terms of signups achieved and compare this performance against the sponsorship amount spent.
 
-## Objectives
+## 🔎Objectives
 
 - **EventType Analysis:**  
   Assess how different types of events are performed in terms of signups and sponsorship amounts spent.
@@ -12,7 +12,7 @@
 - **City-wise Analysis:**  
   Evaluate how different cities performed based on signups and sponsorship costs.
 
-## Data Description
+## 🔠Data Description
 
 The dataset contains details of each sponsored event, including:
 
@@ -32,7 +32,7 @@ The dataset contains details of each sponsored event, including:
 | CW-SP-A12 | Cricket World Cup Final        | Sports Event     | Mumbai    | 900,000                  | 5,000           |
 
 
-## Exploratory Data Analysis (EDA)
+## 📊Exploratory Data Analysis (EDA)
 
 ### Key Metrics
 
@@ -43,7 +43,7 @@ The dataset contains details of each sponsored event, including:
 - **Average Signups per Event:** 2,378
 - **Cost per Signup (CPS):** Rs. 209
 
-## Cost per Signup (CPS) Analysis
+## 🔖Cost per Signup (CPS) Analysis
 
 | Event ID  | Event Name             | Event Type       | City      | Sponsorship Amount (Rs.) | Product Signups | CPS (Rs.) |
 |-----------|------------------------|------------------|-----------|-------------------------|-----------------|-----------|
@@ -52,7 +52,7 @@ The dataset contains details of each sponsored event, including:
 | BW-SP-A5  | Badminton Championship    | Sports Event     | Mumbai    | 600,000                  | 4,200           | 143       |
 | RW-MU-A4  | Retro Waves               | Music Festival   | Bangalore | 450,000                  | 1,400           | 321       |
 
-## Event Type Performance Analysis
+## 🔖Event Type Performance Analysis
 
 | Event Type      | Number of Events | Sponsorship Amount (Rs.) | Total Signups | CPS (Rs.) |
 |----------------|-----------------|--------------------------|---------------|-----------|
@@ -64,7 +64,7 @@ The dataset contains details of each sponsored event, including:
 - Sports Events performed best with the lowest CPS of Rs. 179.35.
 - Conferences had the highest CPS of Rs. 282.76.
 
-## City-wise Performance Analysis
+## 🔖City-wise Performance Analysis
 
 | City      | Number of Events | Sponsorship Amount (Rs.) | Total Signups | CPS (Rs.) |
 |-----------|-----------------|--------------------------|---------------|-----------|
@@ -78,7 +78,7 @@ The dataset contains details of each sponsored event, including:
 - Mumbai performed the best with the lowest CPS of Rs. 180.56.
 - Bangalore had the highest CPS of Rs. 254.72.
 
-## Key Insights
+## 📌Key Insights
 
 ![image](https://github.com/user-attachments/assets/06574e68-d383-46d8-a3f0-398e79f8a44e)
 
@@ -94,10 +94,14 @@ The dataset contains details of each sponsored event, including:
 4. **Least Effective City:**  
    - Bangalore had the highest CPS of Rs. 254.72.
 
-## Future Recommendations
+## 🤙Future Recommendations
 
 - **Increase investment in sports events** due to their lower CPS and higher signup efficiency.
 - **Re-evaluate conference sponsorships** to improve cost-effectiveness.
 - **Focus more on Mumbai and Pune** for future events, given their strong performance.
 - **Analyze underperforming cities** like Bangalore to optimize sponsorship spending.
 
+## 📬 Contact
+**Author:** Kshitija Chilbule
+
+For inquiries, email: kshitijachilbule2@gmail.com
