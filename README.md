@@ -27,15 +27,29 @@ The dataset contains details of each sponsored event, including:
 - **Sponsorship Amount:** Amount spent on sponsorship (in Rs.)
 - **Product Signups:** Number of signups achieved
 
-## Dataset Sample
-
-| Event ID  | Event Name                   | Event Type       | City      | Sponsorship Amount (Rs.) | Product Signups |
-|-----------|------------------------------|------------------|-----------|-------------------------|-----------------|
-| SN-MU-A1  | Sonu Nigam Tour               | Music Festival   | Mumbai    | 500,000                  | 2,000           |
-| KL-SP-A2  | Kabbadi League                 | Sports Event     | Delhi     | 700,000                  | 3,500           |
-| TC-CF-A3  | Tech Conference                | Conference       | Bangalore | 400,000                  | 1,200           |
-| RW-MU-A4  | Retro Waves                    | Music Festival   | Bangalore | 450,000                  | 1,400           |
-| CW-SP-A12 | Cricket World Cup Final        | Sports Event     | Mumbai    | 900,000                  | 5,000           |
+## Event Sponsorship and Signups Data
+| Event ID  | Event Name                          | Event Type       | City       | Sponsorship Amount (in Rs.) | Product Signups |
+|-----------|------------------------------------|------------------|------------|-----------------------------|-----------------|
+| SN-MU-A1  | Sonu Nigam Tour                   | Music Festival   | Mumbai     | 500,000                     | 2,000           |
+| KL-SP-A2  | Kabbadi League                     | Sports Event     | Delhi      | 700,000                     | 3,500           |
+| TC-CF-A3  | Tech Conference                    | Conference       | Bangalore  | 400,000                     | 1,200           |
+| RW-MU-A4  | Retro Waves                        | Music Festival   | Bangalore  | 450,000                     | 1,400           |
+| BW-SP-A5  | Badminton World Championship       | Sports Event     | Mumbai     | 600,000                     | 4,200           |
+| DS-CF-A6  | Developer Summit                   | Conference       | Delhi      | 300,000                     | 1,000           |
+| MF-MU-A7  | Metal Fest                         | Music Festival   | Hyderabad  | 350,000                     | 1,500           |
+| PL-SP-A8  | Pro League Football                | Sports Event     | Pune       | 650,000                     | 3,700           |
+| FS-MU-A9  | Folk Sound Festival                | Music Festival   | Pune       | 300,000                     | 1,300           |
+| WT-CF-A10 | Web Tech Conference                | Conference       | Hyderabad  | 250,000                     | 900             |
+| FF-MU-A11 | Fusion Fiesta                      | Music Festival   | Hyderabad  | 480,000                     | 2,200           |
+| CW-SP-A12 | Cricket World Cup Final            | Sports Event     | Mumbai     | 900,000                     | 5,000           |
+| IS-CF-A13 | Innovation Summit                  | Conference       | Pune       | 350,000                     | 1,400           |
+| AG-SP-A14 | Athletics Grand Prix               | Sports Event     | Bangalore  | 500,000                     | 2,700           |
+| CS-MU-A15 | Classical Strings                  | Music Festival   | Pune       | 250,000                     | 1,100           |
+| HJ-CF-A16 | Health & Wellness Summit           | Conference       | Hyderabad  | 400,000                     | 1,250           |
+| BB-SP-A17 | Basketball Finals                  | Sports Event     | Hyderabad  | 750,000                     | 4,000           |
+| LE-CF-A18 | Leadership Excellence              | Conference       | Delhi      | 350,000                     | 1,500           |
+| BB-MU-A19 | Bollywood Bash                     | Music Festival   | Mumbai     | 600,000                     | 3,200           |
+| RW-SP-A20 | Hockey World Cup                   | Sports Event     | Pune       | 850,000                     | 4,500           |
 
 
 ## 📊Exploratory Data Analysis (EDA)
@@ -51,12 +65,31 @@ The dataset contains details of each sponsored event, including:
 
 ## 🔖Cost per Signup (CPS) Analysis
 
-| Event ID  | Event Name             | Event Type       | City      | Sponsorship Amount (Rs.) | Product Signups | CPS (Rs.) |
-|-----------|------------------------|------------------|-----------|-------------------------|-----------------|-----------|
-| SN-MU-A1  | Sonu Nigam Tour          | Music Festival   | Mumbai    | 500,000                  | 2,000           | 250       |
-| KL-SP-A2  | Kabbadi League            | Sports Event     | Delhi     | 700,000                  | 3,500           | 200       |
-| BW-SP-A5  | Badminton Championship    | Sports Event     | Mumbai    | 600,000                  | 4,200           | 143       |
-| RW-MU-A4  | Retro Waves               | Music Festival   | Bangalore | 450,000                  | 1,400           | 321       |
+## Event Sponsorship, Signups, and Cost Per Signup (CPS)
+
+| Event ID  | Event Name                          | Event Type       | City       | Sponsorship Amount (in Rs.) | Product Signups | CPS (in Rs.) |
+|-----------|------------------------------------|------------------|------------|-----------------------------|-----------------|--------------|
+| SN-MU-A1  | Sonu Nigam Tour                   | Music Festival   | Mumbai     | 500,000                     | 2,000           | 250          |
+| KL-SP-A2  | Kabbadi League                     | Sports Event     | Delhi      | 700,000                     | 3,500           | 200          |
+| TC-CF-A3  | Tech Conference                    | Conference       | Bangalore  | 400,000                     | 1,200           | 333          |
+| RW-MU-A4  | Retro Waves                        | Music Festival   | Bangalore  | 450,000                     | 1,400           | 321          |
+| BW-SP-A5  | Badminton World Championship       | Sports Event     | Mumbai     | 600,000                     | 4,200           | 143          |
+| DS-CF-A6  | Developer Summit                   | Conference       | Delhi      | 300,000                     | 1,000           | 300          |
+| MF-MU-A7  | Metal Fest                         | Music Festival   | Hyderabad  | 350,000                     | 1,500           | 233          |
+| PL-SP-A8  | Pro League Football                | Sports Event     | Pune       | 650,000                     | 3,700           | 176          |
+| FS-MU-A9  | Folk Sound Festival                | Music Festival   | Pune       | 300,000                     | 1,300           | 231          |
+| WT-CF-A10 | Web Tech Conference                | Conference       | Hyderabad  | 250,000                     | 900             | 278          |
+| FF-MU-A11 | Fusion Fiesta                      | Music Festival   | Hyderabad  | 480,000                     | 2,200           | 218          |
+| CW-SP-A12 | Cricket World Cup Final            | Sports Event     | Mumbai     | 900,000                     | 5,000           | 180          |
+| IS-CF-A13 | Innovation Summit                  | Conference       | Pune       | 350,000                     | 1,400           | 250          |
+| AG-SP-A14 | Athletics Grand Prix               | Sports Event     | Bangalore  | 500,000                     | 2,700           | 185          |
+| CS-MU-A15 | Classical Strings                  | Music Festival   | Pune       | 250,000                     | 1,100           | 227          |
+| HJ-CF-A16 | Health & Wellness Summit           | Conference       | Hyderabad  | 400,000                     | 1,250           | 320          |
+| BB-SP-A17 | Basketball Finals                  | Sports Event     | Hyderabad  | 750,000                     | 4,000           | 188          |
+| LE-CF-A18 | Leadership Excellence              | Conference       | Delhi      | 350,000                     | 1,500           | 233          |
+| BB-MU-A19 | Bollywood Bash                     | Music Festival   | Mumbai     | 600,000                     | 3,200           | 188          |
+| RW-SP-A20 | Hockey World Cup                   | Sports Event     | Pune       | 850,000                     | 4,500           | 189          |
+
 
 ## 🔖Event Type Performance Analysis
 
@@ -84,22 +117,18 @@ The dataset contains details of each sponsored event, including:
 - Mumbai performed the best with the lowest CPS of Rs. 180.56.
 - Bangalore had the highest CPS of Rs. 254.72.
 
+## 📊Dashboard
+![image](https://github.com/user-attachments/assets/725cfdd5-7ca9-43d5-bbfc-c60f9851fe03)
+
 ## 📌Key Insights
 
 ![image](https://github.com/user-attachments/assets/06574e68-d383-46d8-a3f0-398e79f8a44e)
 
-1. **Best Performing Event Type:**  
-   - Sports Events achieved the lowest CPS of Rs. 179.35.
-   
-2. **Least Effective Event Type:**  
-   - Conferences had the highest CPS of Rs. 282.76.
-
-3. **Best Performing City:**  
-   - Mumbai had the lowest CPS of Rs. 180.56.
-
-4. **Least Effective City:**  
-   - Bangalore had the highest CPS of Rs. 254.72.
-
+- Sports Events has worked best for us with CPS of Rs.179.35 which is the lowest for all event types
+- Conference as events has not performed well for us. It has CPS of Rs. 282.76 which is the highest for all event types
+- Events held in Mumbai have performed well, with the CPS of Rs. 180.56, the lowest for any city
+- Events held in Bengaluru, have not performed well for us, with the CPS of Rs. 254.72, the highest for any city
+  
 ## 🤙Future Recommendations
 
 - **Increase investment in sports events** due to their lower CPS and higher signup efficiency.
