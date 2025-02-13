@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin" alt="LinkedIn Badge" style="height: 30px; width: auto;">
 </a>
 
-# 🕺🪩BrandPulse Event Performance Analysis
+# 🔦BrandPulse Event Performance Analysis
 
 ## 🔍Overview
 
